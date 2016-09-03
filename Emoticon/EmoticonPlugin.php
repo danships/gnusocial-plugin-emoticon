@@ -64,7 +64,7 @@ class EmoticonPlugin extends Plugin
         return true;
     }
     
-    function onPluginVersion(&$versions)
+    function onPluginVersion(array &$versions)
     {
         $versions[] = array('name' => 'Emoticon',
                             'version' => GNUSOCIAL_VERSION,
